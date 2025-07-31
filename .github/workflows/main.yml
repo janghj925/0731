@@ -10,7 +10,6 @@ jobs:
     
     steps:
       - name: Checkout Repository
-        uses: action/checkout@v3
 
       - name: print
         run: echo "hello git"
